@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, violet, darkred, purple);
+}
+.container{
+    width: 400px;
+    height: min-content;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+   /* box-shadow:3px 3px #888888;*/
+}
+.container button{
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.container button:hover{
+    background-color: #93C6E7;
+}
+.container h3{
+    padding-left: 150px;
+    margin-top: -28px;
+}
+.content{
+    height: 100px;
+    width: 330px;
+    background-color: #F8F4EA;
+    border-radius: 5px;
+    display: grid;
+   /* overflow: hidden;*/
+}
+.content img{
+    height: 90px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content h4{
+    padding: 10px;
+    margin-top: -110px;
+    margin-left: 120px;
+}
+.content .ratings{
+    font-size: 9px;
+    padding: 10px;
+    margin-top: -80px;
+    margin-left: 120px;
+}
+.content p{
+    padding: 10px;
+    margin-top: -55px;
+    margin-left: 120px;
+}
+.btn {
+    padding: 5px;
+    margin-top: -55px;
+    margin-left: 220px;
+}
+.quantity p{
+    margin-left: 250px;
+}
+.btn1{
+    padding: 5px;
+    margin-top: -55px;
+    margin-left: 270px;
+}
+.checkout{
+    height: 30px;
+    font-size: 20px;
+    padding-top: 2px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #FF6E31;
+}
+.checkout p{
+    color: white;
+    cursor: pointer;
+}
+.checkout:hover{
+    background-color: #439A97;
+}
